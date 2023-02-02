@@ -11,9 +11,17 @@ body, * {
 }
 
 .form-control {
-    @apply rounded-sm w-full bg-gray-200 border-transparent focus:border-cyan-dark-gray focus:bg-white focus:ring-1;
+    @apply w-full bg-gray-200 border-transparent focus:border-cyan-dark-gray focus:bg-white focus:ring-1;
 }
 
 .btn {
-    @apply bg-cyan-dark text-white rounded-lg p-2 font-bold hover:bg-primary hover:text-cyan-dark text-xl;
+    @apply rounded-md p-1 font-bold;
+}
+
+.btn-primary {
+    @apply bg-cyan-dark text-white hover:bg-primary hover:text-cyan-dark;
+}
+
+.btn-secondary {
+    @apply bg-primary text-cyan-dark;
 }
